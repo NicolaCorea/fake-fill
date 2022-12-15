@@ -1,2 +1,2 @@
 # fake-fill
-NodeJs aplication to fill databases with fake data
+NodeJS aplication to fill databases with fake data
