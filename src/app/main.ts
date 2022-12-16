@@ -1,7 +1,10 @@
+import { NavController } from "./views/controller/nav-controller";
+
 export abstract class FakeFill {
 
   public static start(): void {
     console.clear();
+    NavController.init()
   }
 
   public static quit(): void {
