@@ -1,4 +1,4 @@
-import { MainMenu } from "../main-menu/main-menu";
+import { MainMenu } from "../../app/views/home/home";
 
 export abstract class NavController {
 

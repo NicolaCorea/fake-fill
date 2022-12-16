@@ -1,7 +1,7 @@
-import { Config } from "../../settings/config/config";
+import { Config } from "../../config/config";
 import prompts = require("prompts");
 import { MenuChoice } from "../../shared/types/menu-choice";
-import { NavController } from "../controller/nav-controller";
+import { NavController } from "../../../core/controller/nav-controller";
 import { ViewInterface } from "app/shared/interfaces/view-interface";
 
 /**
@@ -23,7 +23,7 @@ export class MainMenu implements ViewInterface {
       {
         type: 'select',
         name: 'value',
-        message: "Main menu",
+        message: "Home",
         choices: this.choices,
         initial: 0,
         increment: 0,

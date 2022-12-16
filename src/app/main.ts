@@ -1,4 +1,4 @@
-import { NavController } from "./views/controller/nav-controller";
+import { NavController } from "../core/controller/nav-controller";
 
 export abstract class FakeFill {
 
